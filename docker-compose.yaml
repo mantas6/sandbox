@@ -1,0 +1,8 @@
+services:
+  system:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sandbox
+    restart: always
+    tty: true

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+docker-compose up -d
+docker exec -it sandbox bash
+docker-compose stop
