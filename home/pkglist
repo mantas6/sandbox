@@ -1,0 +1,7 @@
+base-devel
+git
+wget
+stow
+vim
+man-db
+bat
